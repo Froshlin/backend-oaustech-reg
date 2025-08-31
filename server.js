@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: 'https://oaustech-enroll-dash.vercel.app/',
+  origin: 'https://oaustech-enroll-dash.vercel.app',
 }));
 app.use(express.json());
 
